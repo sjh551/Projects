@@ -1,6 +1,6 @@
 # CIFAR-10 Classification
 A entry-level classification task: set up a simple network, CIFAR-10 dataset
-# Dataset description
+## Dataset description
 CIFAR-10 is a standard dataset used for image classification, containing natural images of 10 categories such as airplane, cars, birds, cats, etc.
 Download at https://www.cs.toronto.edu/~kriz/cifar.html
 ![10 categories](https://github.com/sjh551/Projects/blob/e9fb46d31ab76ef78a9a4a9cc5aa4a5333ce3899/Classification/code/CIFAR10/image.png)\
@@ -33,9 +33,9 @@ Download at https://www.cs.toronto.edu/~kriz/cifar.html
 │            └── test_batch
 ├──code
 ```
-# Set up a Model
+## Set up a Model
 在```cnn.ipynb```中的 CIFAR10_CNN 类构建模型
-# extension
+## extension
 * **CBAM: Convolutional Block Attention Module**  
 **Link:** https://openaccess.thecvf.com/content_ECCV_2018/html/Sanghyun_Woo_Convolutional_Block_Attention_ECCV_2018_paper.html      
 ```CBAM.py```: CBAM 是一种结合通道和空间注意力的轻量级模块，适用于图像识别和目标检测任务。它包括Channel Attention Module(CAM)和SpatialAttention Module(SAM)。CAM通过平均池化和最大池化压缩空间维度，SAM则关注目标位置信息。
