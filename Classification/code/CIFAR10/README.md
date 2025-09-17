@@ -34,3 +34,11 @@ Download at https://www.cs.toronto.edu/~kriz/cifar.html
 ├──code
 ```
 # Set up a Model
+在```cnn.ipynb```中的 CIFAR10_CNN 类构建模型
+# extension
+* **CBAM: Convolutional Block Attention Module**  
+**Link:** https://openaccess.thecvf.com/content_ECCV_2018/html/Sanghyun_Woo_Convolutional_Block_Attention_ECCV_2018_paper.html      
+```CBAM.py```: CBAM 是一种结合通道和空间注意力的轻量级模块，适用于图像识别和目标检测任务。它包括Channel Attention Module(CAM)和SpatialAttention Module(SAM)。CAM通过平均池化和最大池化压缩空间维度，SAM则关注目标位置信息。
+* **Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization**  
+**Link:** https://arxiv.org/pdf/1610.02391  
+```Grad_cam```: Grad-CAM通过热力图显示网络关注的区域，有助于理解模型决策过程。
